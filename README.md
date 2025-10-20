@@ -18,3 +18,6 @@ En este reto se demuestra que al aplicar `@Lazy` tanto en la definición de `Exp
 ### Reto 4
 
 De manera complementaria, en este reto se intercambia la configuración aplicando `@Lazy` únicamente a `ManualService`, evidenciando que ahora `ExperimentService` se crea de forma inmediata durante el arranque mientras `ManualService` se inicializa cuando se invoca su método por primera vez, confirmando que el comportamiento de inicialización lazy es independiente de si el bean se define con `@Component` o `@Bean`
+
+
+### Reporte de Punto 3 se encuentra dentro de la carpeta /src/Docs dentro del proyecto.
